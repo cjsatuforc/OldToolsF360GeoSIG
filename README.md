@@ -5,8 +5,11 @@ The tools have to filter the documents in the project to apply only on parts, as
 **PCB:** 
 
 0024_V0.2 Part24 PCB1 internal             -> 0024_V0.2 Part24 PCB1 internal.STEP (archive)
+
 0024_V0.2 Part24 PCB1 internal Drawing     -> GS_07358-0024_V0.2 Part24 PCB1 internal Drawing.pdf (production + archive)
+
                                            -> GS_07358-0024_V0.2 Part24 PCB1 internal Drawing.dwg (archive)
+					   
 0024_V0.2 Part24 PCB1 internal CAM         -> GS_07358-0024_V0.2 CAM.dxf (production)
 
 **MECH:** 
@@ -17,10 +20,15 @@ The tools have to filter the documents in the project to apply only on parts, as
 **ASSY:** 
 
 0506_V0.2 Assy06 Base2 +magnet
+
 0506_V0.2 Assy06 Base2 +magnet Drawing
+
 1000_V0.2 Prod00 Hor cell assembled
+
 1000_V0.2 Prod00 Hor cell assembled Drawing
+
 1001_V0.2 Prod01 Ver cell assembled
+
 1001_V0.2 Prod01 Ver cell assembled Drawing
 
 **3D file format:** 
