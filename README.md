@@ -2,17 +2,17 @@
 Tools to GeoSIG products as Fusion 360 Projects
 The tools have to filter the documents in the project to apply only on parts, assembly or product and process accordingly.
 
-PCB:
+**PCB:**
 0024_V0.2 Part24 PCB1 internal             -> 0024_V0.2 Part24 PCB1 internal.STEP (archive)
 0024_V0.2 Part24 PCB1 internal Drawing     -> GS_07358-0024_V0.2 Part24 PCB1 internal Drawing.pdf (production + archive)
                                            -> GS_07358-0024_V0.2 Part24 PCB1 internal Drawing.dwg (archive)
 0024_V0.2 Part24 PCB1 internal CAM         -> GS_07358-0024_V0.2 CAM.dxf (production)
 
-MECH:
+**MECH:**
 0002_V0.2 Part02 Disk base2
 0002_V0.2 Part02 Disk base2 Drawing
 
-ASSY:
+**ASSY:**
 0506_V0.2 Assy06 Base2 +magnet
 0506_V0.2 Assy06 Base2 +magnet Drawing
 1000_V0.2 Prod00 Hor cell assembled
@@ -20,18 +20,19 @@ ASSY:
 1001_V0.2 Prod01 Ver cell assembled
 1001_V0.2 Prod01 Ver cell assembled Drawing
 
-3D file format:
+**3D file format:**
 - STEP most common format defined in  ISO 10303-21, it can handle nicely assemblies (any 3D CAD can import it).
 - F3D  native fusion 360 file format for object, only Fusion 360 can read it but it will be a full restore.
-CAM file:
+**CAM file:**
 - DXF usually easy for CAM file to import in machine or given to supplier, also Eagle can import it
 - STL best for CAM in 3D printers
 - GCODE toolpath best for CNC but need correct setup of tools. So the machine and tool must be known at creation time. 
   This is more a production format than a design or interchange format.
-Drawings:
+**Drawings:**
 - DWG for archiving drawing with a reliable but paintfull way to edit them in the long term.
 - PDF (2D only) for production and archiving.
 
+**Functions:**
 
 #1 Close All documents - Close all open documents within current project.
 
@@ -129,6 +130,8 @@ Download the REPO.
 
 ## How to use<a name="How-to-use"></a>
 
+This is only sample of the generic functions.
+
 Launch Fusion 360.
 
 In the **Scripts and Addins** dialog box select Add-ins and then "ProjectUtilities"
@@ -179,6 +182,7 @@ Samples are licensed under the terms of the [MIT License](http://opensource.org/
 
 ## Inspired from 
 
+GitHub:[ProjectUtilities](https://github.com/tapnair/ProjectUtilities)
 Written by [Patrick Rainsberry](https://twitter.com/prrainsberry) <br /> (Autodesk Fusion 360 Business Development)
 
 See more useful [Fusion 360 Utilities](https://tapnair.github.io/index.html)
