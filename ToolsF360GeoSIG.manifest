@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"506eb722-8f4e-4006-92f5-794868633c34",
+	"author":	"Serge Rudaz",
+	"description":	{
+		"":	"Set of Utilities for Managing GeoSIG products in Fusion 360"
+	},
+	"version":	"1.0",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
